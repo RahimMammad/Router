@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+    .navbar-main-container {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+
+        h2 {
+            color: #1fa67a;
+            font-size: 24px;
+            font-weight: 500;
+            padding-top: 20px;
+            cursor: pointer;
+        }
+
+        ul {
+            display: flex;
+            gap: 0px;
+            text-align: center;
+
+            a {
+                width: 100px;
+                color: gray;
+                padding-top: 25px;
+                padding-bottom: 25px;
+            }
+
+            a:hover {
+                background-color: #1fa67a;
+            }
+        }
+    }
+}
